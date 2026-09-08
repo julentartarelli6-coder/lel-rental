@@ -280,7 +280,7 @@ function Index() {
             </span>
           </Reveal>
           <Reveal delay={120}>
-            <h1 className="mt-6 max-w-3xl text-4xl leading-[0.95] text-graphite-foreground sm:text-6xl lg:text-7xl">
+            <h1 className="mt-6 max-w-3xl text-3xl leading-[0.95] text-graphite-foreground sm:text-6xl lg:text-7xl">
               Locação de vans, <span className="whitespace-nowrap">ônibus, micro-ônibus</span> e munck para grandes obras
             </h1>
           </Reveal>
