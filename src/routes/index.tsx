@@ -44,13 +44,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Locação de vans, micro-ônibus, ônibus, Micro-ônibus e caminhão munck para obras .",
+          "Locação de vans, ônibus, micro-ônibus e munck para grandes obras.",
       },
       { property: "og:title", content: "L&L Rental — Locação de Veículos" },
       {
         property: "og:description",
         content:
-          "Locação de vans, micro-ônibus, ônibus, Micro-ônibus e caminhão munck para obras .",
+          "Locação de vans, ônibus, micro-ônibus e munck para grandes obras.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://ll-rental-solutions.lovable.app/" },
@@ -281,7 +281,7 @@ function Index() {
           </Reveal>
           <Reveal delay={120}>
             <h1 className="mt-6 max-w-3xl text-4xl leading-[0.95] text-graphite-foreground sm:text-6xl lg:text-7xl">
-              Locação de vans, ônibus e munck para grandes obras
+              Locação de vans, ônibus, micro-ônibus e munck para grandes obras
             </h1>
           </Reveal>
           <Reveal delay={220}>
