@@ -281,7 +281,7 @@ function Index() {
           </Reveal>
           <Reveal delay={120}>
             <h1 className="mt-6 max-w-3xl text-4xl leading-[0.95] text-graphite-foreground sm:text-6xl lg:text-7xl">
-              Locação de vans, ônibus, <span className="whitespace-nowrap">micro-ônibus</span> e munck para grandes obras
+              Locação de vans, <span className="whitespace-nowrap">ônibus, micro-ônibus</span> e munck para grandes obras
             </h1>
           </Reveal>
           <Reveal delay={220}>
