@@ -1,5 +1,8 @@
 # L&L Infra Solutions
 
+> **Painel do cliente:** o conteudo do site e editavel em `/admin`.
+> Documentacao completa em [PAINEL-ADMIN.md](./PAINEL-ADMIN.md).
+
 Crie um site institucional moderno e responsivo para a L&L Rental, uma empresa de locação de veículos para transporte de passageiros voltada a grandes obras de infraestrutura (subestações, transmissão de energia, terraplenagem, rodovias).
 
 IDENTIDADE VISUAL:
