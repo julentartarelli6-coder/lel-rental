@@ -249,16 +249,18 @@ function ImagesField({ field, value, onChange }: FieldProps) {
               folder={field.folder}
               multiple
               label="Enviar fotos"
-              onUploaded={(urls, files) =>
-                onChange([
-                  ...images,
-                  ...urls.map((url, i) => ({
-                    id: newId("img"),
-                    url,
-                    alt: files[i]?.name.replace(/\.[^.]+$/, "") ?? "",
-                  })),
-                ])
-              }
+              onUploaded={(urls, files) => {
+                const added = urls.map((url, i) => ({
+                  id: newId("img"),
+                  url,
+                  alt: files[i]?.name.replace(/\.[^.]+$/, "") ?? "",
+                }));
+                const room = field.max === undefined ? added.length : field.max - images.length;
+                if (added.length > room) {
+                  toast.warning(`Só cabem ${field.max} fotos. As ${added.length - room} últimas foram ignoradas.`);
+                }
+                onChange([...images, ...added.slice(0, room)]);
+              }}
             />
           </div>
         )}

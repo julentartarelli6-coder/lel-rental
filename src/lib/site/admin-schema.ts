@@ -235,7 +235,7 @@ export const ADMIN_SCHEMA: [SectionDef, ...SectionDef[]] = [
             path: "images",
             label: "Fotos",
             folder: "equipamentos",
-            max: 8,
+            max: 15,
             hint: "A primeira foto é a capa. Com 2 ou mais, o card vira carrossel.",
           },
           {

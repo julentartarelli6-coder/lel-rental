@@ -255,7 +255,7 @@ export function Landing({
                   {images.length > 0 ? (
                     <CardCarousel images={images} alt={item.title} />
                   ) : (
-                    <div className="h-44 w-full bg-secondary" />
+                    <div className="aspect-[4/3] w-full bg-secondary" />
                   )}
                   <div className="flex flex-1 flex-col p-6">
                     <div className="flex items-center gap-2 text-primary">
